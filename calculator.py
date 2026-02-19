@@ -3,11 +3,11 @@
 # Fix them and submit a pull request!
 
 def add(a, b):
-    return a - b  
+    return a + b  
 
 
 def subtract(a, b):
-    return a + b   
+    return a - b   
 
 
 def multiply(a, b):
@@ -15,7 +15,9 @@ def multiply(a, b):
 
 
 def divide(a, b):
-    return a * b  
+    if(b == 0):
+        return "b can't be 0"
+    return a / b  
 
 
 def main():
