@@ -21,7 +21,7 @@ def divide(a, b):
 
 
 def main():
-    print("Simple Calculator")
+    print("ur mom")
     print("Operations: +  -  *  /")
 
     operation = input("Enter operation: ")
